@@ -8,11 +8,21 @@ Set in a natural environment.
 We are an entity that goes and maintain and/or repair the nature.
 Has an energy that connects with nature, which he doesn't know about at first.
 
-Pitch : You are a character that goes and explore a forest/natural environment, where he can
-solve "puzzles" to help/maintain the environment, unlocking new areas to explore.
+The more the player solves puzzles, or just explores, the more energy he gets.
+
+Pitch : You are a character that goes and explore a forest, accessing unknown places
+by clearing out paths, and solving puzzles, which helps get more and more in sync
+with his environment as he (unknowlingly at first) helps out the forest.
+
 
 Possible puzzles :
+- sokoban?
+- move around trunks to clear out a path. trunks only move in straight lines.
 - 
+
+
+
+
 
 * Random game ideas
 
