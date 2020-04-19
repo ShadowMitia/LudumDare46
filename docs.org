@@ -14,6 +14,10 @@ Pitch : You are a character that goes and explore a forest, accessing unknown pl
 by clearing out paths, and solving puzzles, which helps get more and more in sync
 with his environment as he (unknowlingly at first) helps out the forest.
 
+Pitch V2 : You are a casual hiker, going for a walk in a forest, where you find yourself
+exploring hidden areas, and through actions and puzzle-solving, manage to nurse the forest
+back to health, from natural and human contamination.
+
 
 Possible puzzles :
 - sokoban?

@@ -206,7 +206,7 @@ points = PoolVector2Array( 20.0353, 52.7035, 31.2879, 43.4603, 44.148, 50.6941, 
 } ]
 7/z_index = 0
 
-[sub_resource type="TileSet" id=11]
+[sub_resource type="TileSet" id=10]
 0/name = "RPG Waterfall"
 0/texture = ExtResource( 3 )
 0/tex_offset = Vector2( 0, 0 )
@@ -222,13 +222,13 @@ points = PoolVector2Array( 20.0353, 52.7035, 31.2879, 43.4603, 44.148, 50.6941, 
 0/shapes = [  ]
 0/z_index = 0
 
-[sub_resource type="RectangleShape2D" id=12]
+[sub_resource type="RectangleShape2D" id=11]
 extents = Vector2( 42.0332, 21.3882 )
 
-[sub_resource type="RectangleShape2D" id=13]
+[sub_resource type="RectangleShape2D" id=12]
 extents = Vector2( 28.3705, 23.5685 )
 
-[sub_resource type="RectangleShape2D" id=10]
+[sub_resource type="RectangleShape2D" id=13]
 extents = Vector2( 31.945, 32.6194 )
 
 [node name="Root" type="Node2D"]
@@ -252,7 +252,7 @@ tile_data = PoolIntArray( -327663, 2, 0, -327662, 0, 0, -327657, 0, 0, -262129, 
 [node name="Waterfall" type="TileMap" parent="."]
 modulate = Color( 0.780392, 0.784314, 0.968627, 1 )
 position = Vector2( 7.56299, 1.63028 )
-tile_set = SubResource( 11 )
+tile_set = SubResource( 10 )
 format = 1
 tile_data = PoolIntArray( 1114084, 0, 0, 1114085, 0, 0, 1179620, 0, 0, 1179621, 0, 0, 1245156, 0, 0, 1245157, 0, 0, 1310692, 0, 0, 1310693, 0, 0, 1376228, 0, 0, 1376229, 0, 0 )
 script = ExtResource( 10 )
@@ -271,7 +271,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Objectives/WaterfallObjective"]
-shape = SubResource( 12 )
+shape = SubResource( 11 )
 
 [node name="TutorialObjective" type="Area2D" parent="Objectives"]
 position = Vector2( 404.518, 498.248 )
@@ -280,7 +280,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Objectives/TutorialObjective"]
-shape = SubResource( 13 )
+shape = SubResource( 12 )
 
 [node name="Character" parent="." instance=ExtResource( 2 )]
 position = Vector2( 799.033, 607.019 )
@@ -299,7 +299,7 @@ __meta__ = {
 texture = ExtResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall"]
-shape = SubResource( 10 )
+shape = SubResource( 13 )
 
 [node name="InvisbleWall2" type="StaticBody2D" parent="GameArea"]
 position = Vector2( 590.077, 3117.96 )
@@ -313,7 +313,7 @@ __meta__ = {
 texture = ExtResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall2"]
-shape = SubResource( 10 )
+shape = SubResource( 13 )
 
 [node name="InvisbleWall3" type="StaticBody2D" parent="GameArea"]
 position = Vector2( -4323.83, 1574.65 )
@@ -327,7 +327,7 @@ __meta__ = {
 texture = ExtResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall3"]
-shape = SubResource( 10 )
+shape = SubResource( 13 )
 
 [node name="InvisbleWall4" type="StaticBody2D" parent="GameArea"]
 position = Vector2( 4923.69, 1241.3 )
@@ -341,11 +341,12 @@ __meta__ = {
 texture = ExtResource( 4 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall4"]
-shape = SubResource( 10 )
+shape = SubResource( 13 )
 
 [node name="HUD" type="CanvasLayer" parent="."]
 
 [node name="Control" parent="HUD" instance=ExtResource( 11 )]
-[connection signal="body_entered" from="Objectives/WaterfallObjective" to="Character" method="_on_WaterfallObjective_body_entered"]
 [connection signal="body_entered" from="Objectives/WaterfallObjective" to="Dead Tree" method="_on_Objective_body_entered"]
+[connection signal="body_entered" from="Objectives/WaterfallObjective" to="Character" method="_on_WaterfallObjective_body_entered"]
 [connection signal="body_entered" from="Objectives/TutorialObjective" to="Character" method="_on_TutorialObjective_body_entered"]
+[connection signal="bumped_tree" from="Character" to="HUD/Control" method="_on_Character_bumped_tree"]

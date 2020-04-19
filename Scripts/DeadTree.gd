@@ -19,6 +19,7 @@ func set_velocity(val):
 func _ready():
 	pass # Replace with function body.
 
+
 func _physics_process(delta):
 	if moving and !moved_one_time:
 		var collider = move_and_collide(velocity * delta)
@@ -27,3 +28,8 @@ func _physics_process(delta):
 			velocity = Vector2.ZERO
 			if one_time:
 				moved_one_time = true	
+
+
+func _on_Objective_body_entered(body):
+	if body == self:
+		get_node("../Waterfall").show()

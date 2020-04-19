@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+signal bumped_tree
+
 export(float) var SPEED = 200
 
 var energy = 0 setget add_energy, get_energy
@@ -28,5 +30,13 @@ func _physics_process(delta):
 		var collision = get_slide_collision(i)
 		if collision.collider.name.substr(0, 9) == "Dead Tree":
 			collision.collider.set_velocity(-collision.normal)
+			emit_signal("bumped_tree", "Bumped tree")
 		# print("Collided with: ", collision.collider.name)
 
+func _on_TutorialObjective_body_entered(body):
+	if body == self:
+		self.add_energy(10)
+
+func _on_WaterfallObjective_body_entered(body):
+	if body == self:
+		self.add_energy(50)
