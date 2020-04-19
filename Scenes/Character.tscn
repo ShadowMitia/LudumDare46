@@ -7,7 +7,7 @@
 extents = Vector2( 8.95585, 4.97678 )
 
 [node name="Character" type="KinematicBody2D"]
-scale = Vector2( 0.6, 0.6 )
+scale = Vector2( 0.8, 0.8 )
 script = ExtResource( 2 )
 
 [node name="Camera2D" type="Camera2D" parent="."]

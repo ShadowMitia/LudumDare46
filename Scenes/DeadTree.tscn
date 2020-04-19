@@ -4,18 +4,19 @@
 [ext_resource path="res://Scripts/DeadTree.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 4.54581, 31.8856 )
+extents = Vector2( 22.1978, 38.5432 )
 
 [node name="Dead Tree" type="KinematicBody2D"]
 scale = Vector2( 1, 1.2 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 11.435, 0.816693 )
+position = Vector2( 60.0112, 4.39401 )
+scale = Vector2( 5, 1.2 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 352, 0, 32, 64 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.192039, 0.922572 )
+position = Vector2( 3.11195, 4.57244 )
 shape = SubResource( 1 )
