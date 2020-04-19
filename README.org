@@ -1,0 +1,20 @@
+* Ludum Dare 46 Submission
+
+Name of game : TBD
+
+Made by myself, except where credit has been given.
+
+** Pitch
+
+You are a casual hiker, going for a walk in a forest, where you find yourself
+exploring hidden areas, and through actions and puzzle-solving, manage to nurse the forest
+back to health, from natural and human contamination.
+
+
+** Commands
+
+Movement : arrow keys
+
+** Credits
+
+- Thanks to [Kenney](https://kenney.nl) for his [RPG Base Pack](https://kenney.nl/assets/rpg-base) which served as a basis.
