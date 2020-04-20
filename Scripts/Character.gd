@@ -10,7 +10,7 @@ var energy = 0
 func evaluate_energy():
 	if (energy >= 10):
 		emit_signal("show_text", "You feel the forest reaching out to you.", 1, 3)
-	
+		
 
 func _physics_process(delta):
 	
@@ -18,7 +18,7 @@ func _physics_process(delta):
 	
 	velocity.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left");
 	velocity.y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up");	
-	
+	velocity = velocity.normalized()
 	velocity *= SPEED
 	
 	velocity = move_and_slide(velocity, Vector2.ZERO)
