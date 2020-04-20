@@ -1,9 +1,8 @@
 * Ludum Dare 46 Submission
 
-Name of game : TBD
+Name of game : Casual Hiking
 
 Made by myself, except where credit has been given, using Godot Engine.
-
 
 ** Pitch
 
@@ -11,11 +10,12 @@ You are a casual hiker, going for a walk in a forest, where you find yourself
 exploring hidden areas, and through actions and puzzle-solving, manage to nurse the forest
 back to health, from natural and human contamination.
 
-
 ** Commands
 
 Movement : arrow keys
 
 ** Credits
 
-- Thanks to [Kenney](https://kenney.nl) for his [RPG Base Pack](https://kenney.nl/assets/rpg-base) which served as a basis.
+- Thanks to [[Kenney][https://kenney.nl]] for his [[RPG Base Pack][https://kenney.nl/assets/rpg-base)]] assets.
+- Thanks to  Christian Robertson  for his [[Roboto Mono font][https://fonts.google.com/specimen/Roboto+Mono]].
+- Special thanks to everyone that joined my stream !
