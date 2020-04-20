@@ -16,7 +16,6 @@ func _ready():
 
 func show_text(text, duration, disappears_after):
 	showing_text = true
-	print("Show text '", text, "' ", duration, ", ", disappears_after)
 	$Label.text = text
 	$Label.visible_characters = 0
 	background.show()

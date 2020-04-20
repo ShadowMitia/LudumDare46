@@ -36,7 +36,6 @@ func _on_Timer_timeout():
 		velocity = velocity.normalized() * SPEED
 	elif walk_alternate and follow_character:
 		velocity = follow_target.position - position
-		print(velocity.length())
 		if velocity.length() > 450:
 			follow_character = false
 			follow_target = null
@@ -51,7 +50,6 @@ func _on_Timer_timeout():
 
 func _on_Area2D_body_entered(body):
 	if body.name == "Character":
-		print("triggered")
 		follow_character = true
 		follow_target = get_node("../Character")
 
