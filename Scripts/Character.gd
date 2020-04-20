@@ -1,18 +1,17 @@
 extends KinematicBody2D
 
+signal show_text(text, duration, dissapears)
+
+onready var TextUI = get_node("../HUD/Control")
 export(float) var SPEED = 200
 
-var energy = 0 setget add_energy, get_energy
+var energy = 0
 
-
-func add_energy(new_energy):
-	energy += new_energy
-
-func get_energy():
-	return energy
+func evaluate_energy():
+	if (energy >= 10):
+		emit_signal("show_text", "You feel the forest reaching out to you.", 1, 3)
 	
 
-	
 func _physics_process(delta):
 	
 	var velocity = Vector2.ZERO;
@@ -31,9 +30,16 @@ func _physics_process(delta):
 		# print("Collided with: ", collision.collider.name)
 
 func _on_TutorialObjective_body_entered(body):
-	if body == self:
-		self.add_energy(10)
+	if body.name.substr(0, 9) == "Dead Tree":
+		energy += 50
+		evaluate_energy()
 
 func _on_WaterfallObjective_body_entered(body):
-	if body == self:
-		self.add_energy(50)
+	if body.name.substr(0, 9) == "Dead Tree":
+		energy += 50
+		evaluate_energy()
+
+func _on_Puzzle2Objective_body_entered(body):
+	if body.name.substr(0, 9) == "Dead Tree":
+		energy += 50
+		evaluate_energy()
