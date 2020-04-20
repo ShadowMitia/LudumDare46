@@ -34,3 +34,8 @@ func _on_Objective_body_entered(body):
 	if body == self:
 		get_node("../Waterfall").show()
 		set_collision_mask_bit(0, true)
+
+
+func _on_TutorialObjective_body_entered(body):
+	if body == self:
+		set_collision_mask_bit(0, true)

@@ -8,6 +8,7 @@ func remove_text():
 	$Label.text = ""
 
 func _ready():
+	show() # Make sure text UI is always visible...
 	remove_text()
 	$Timer.wait_time = 3
 	$Timer.start()
