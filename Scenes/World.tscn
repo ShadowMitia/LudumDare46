@@ -37,10 +37,10 @@ points = PoolVector2Array( 20.0353, 52.7035, 31.2879, 43.4603, 44.148, 50.6941, 
 [sub_resource type="ConvexPolygonShape2D" id=9]
 points = PoolVector2Array( 8.69847, 36.7624, 34.0949, 17.7849, 59.7704, 37.8787, 59.7704, 52.6701, 40.7928, 61.0425, 28.2342, 62.1588, 10.373, 52.1119 )
 
-[sub_resource type="ConvexPolygonShape2D" id=15]
+[sub_resource type="ConvexPolygonShape2D" id=10]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 
-[sub_resource type="TileSet" id=10]
+[sub_resource type="TileSet" id=11]
 0/name = "RPG Tree Light Green"
 0/texture = ExtResource( 3 )
 0/tex_offset = Vector2( 0, 0 )
@@ -49,6 +49,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 0/tile_mode = 0
 0/occluder_offset = Vector2( 0, 0 )
 0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
 0/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -65,6 +70,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 1/tile_mode = 0
 1/occluder_offset = Vector2( 0, 0 )
 1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 2 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
 1/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -81,6 +91,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 2/tile_mode = 0
 2/occluder_offset = Vector2( 0, 0 )
 2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 3 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
 2/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -97,6 +112,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 3/tile_mode = 0
 3/occluder_offset = Vector2( 0, 0 )
 3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 4 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
 3/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -113,6 +133,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 4/tile_mode = 0
 4/occluder_offset = Vector2( 0, 0 )
 4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape = SubResource( 5 )
+4/shape_one_way = false
+4/shape_one_way_margin = 1.0
 4/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -129,6 +154,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 5/tile_mode = 0
 5/occluder_offset = Vector2( 0, 0 )
 5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape = SubResource( 6 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
 5/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -145,6 +175,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 6/tile_mode = 0
 6/occluder_offset = Vector2( 0, 0 )
 6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape = SubResource( 7 )
+6/shape_one_way = false
+6/shape_one_way_margin = 1.0
 6/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -161,6 +196,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 7/tile_mode = 0
 7/occluder_offset = Vector2( 0, 0 )
 7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape = SubResource( 8 )
+7/shape_one_way = false
+7/shape_one_way_margin = 1.0
 7/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -177,6 +217,11 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 8/tile_mode = 0
 8/occluder_offset = Vector2( 0, 0 )
 8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape = SubResource( 9 )
+8/shape_one_way = false
+8/shape_one_way_margin = 1.0
 8/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -187,12 +232,12 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 15 ),
+"shape": SubResource( 10 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 8/z_index = 0
 
-[sub_resource type="TileSet" id=11]
+[sub_resource type="TileSet" id=12]
 0/name = "RPG Waterfall"
 0/texture = ExtResource( 3 )
 0/tex_offset = Vector2( 0, 0 )
@@ -201,16 +246,20 @@ points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
 0/tile_mode = 0
 0/occluder_offset = Vector2( 0, 0 )
 0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
 0/shapes = [  ]
 0/z_index = 0
 
-[sub_resource type="RectangleShape2D" id=12]
+[sub_resource type="RectangleShape2D" id=13]
 extents = Vector2( 42.0332, 21.3882 )
 
-[sub_resource type="RectangleShape2D" id=13]
+[sub_resource type="RectangleShape2D" id=14]
 extents = Vector2( 28.3705, 23.5685 )
 
-[sub_resource type="RectangleShape2D" id=14]
+[sub_resource type="RectangleShape2D" id=15]
 extents = Vector2( 31.945, 32.6194 )
 
 [node name="Root" type="Node2D"]
@@ -226,7 +275,7 @@ tile_data = PoolIntArray( -1114253, 3, 0, -1114252, 3, 0, -1114251, 3, 0, -11142
 
 [node name="Trees and Rocks" type="TileMap" parent="."]
 position = Vector2( 2, 0 )
-tile_set = SubResource( 10 )
+tile_set = SubResource( 11 )
 cell_y_sort = true
 format = 1
 tile_data = PoolIntArray( -327663, 2, 0, -327662, 0, 0, -327657, 0, 0, -262129, 2, 0, -262124, 0, 0, -262119, 6, 0, -196594, 6, 0, -196592, 4, 0, -196590, 7, 0, -196589, 0, 0, -196587, 3, 0, -196585, 7, 0, -196584, 0, 0, -65566, 0, 0, -65565, 0, 0, -65564, 0, 0, -65563, 0, 0, -65562, 0, 0, -131059, 6, 0, -131058, 4, 0, -131057, 6, 0, -131056, 4, 0, -131055, 7, 0, -131054, 6, 0, -131052, 7, 0, -131050, 4, 0, -131049, 4, 0, -44, 0, 0, -43, 6, 0, -42, 6, 0, -41, 6, 0, -32, 0, 0, -31, 0, 0, -30, 0, 0, -26, 0, 0, -25, 0, 0, -24, 0, 0, -23, 0, 0, -22, 0, 0, -21, 0, 0, 65491, 0, 0, 65492, 6, 0, 65493, 0, 0, 65494, 0, 0, 65495, 6, 0, 65515, 0, 0, 131025, 6, 0, 131026, 6, 0, 131027, 0, 0, 131028, 0, 0, 131029, 0, 0, 131030, 0, 0, 131031, 0, 0, 131032, 0, 0, 131069, 2, 0, 65541, 0, 0, 196590, 0, 0, 196591, 0, 0, 196592, 0, 0, 262126, 0, 0, 262127, 0, 0, 262128, 0, 0, 262129, 0, 0, 196614, 0, 0, 327663, 0, 0, 327664, 0, 0, 327665, 0, 0, 262146, 0, 0, 393167, 0, 0, 393168, 0, 0, 393199, 0, 0, 393200, 0, 0, 393201, 0, 0, 393214, 2, 0, 327682, 8, 0, 327683, 8, 0, 327684, 8, 0, 327685, 8, 0, 327686, 8, 0, 327687, 8, 0, 327688, 8, 0, 327689, 8, 0, 458703, 0, 0, 458704, 0, 0, 458705, 0, 0, 458735, 0, 0, 458736, 0, 0, 458737, 0, 0, 458738, 0, 0, 458747, 0, 0, 458749, 1, 0, 393218, 8, 0, 393219, 8, 0, 393225, 8, 0, 524239, 0, 0, 524240, 0, 0, 524241, 0, 0, 524257, 3, 0, 524271, 0, 0, 524273, 0, 0, 524274, 0, 0, 524285, 1, 0, 524286, 7, 0, 458759, 8, 0, 458761, 8, 0, 589793, 3, 0, 589794, 2, 0, 589808, 0, 0, 589809, 0, 0, 589810, 0, 0, 589811, 0, 0, 524290, 8, 0, 524291, 8, 0, 524292, 8, 0, 524293, 8, 0, 524294, 8, 0, 524295, 8, 0, 524297, 8, 0, 655331, 4, 0, 655344, 0, 0, 655345, 0, 0, 655346, 0, 0, 655347, 0, 0, 655356, 4, 0, 655358, 4, 0, 589826, 0, 0, 589830, 3, 0, 589831, 3, 0, 589832, 3, 0, 720881, 0, 0, 720882, 0, 0, 720883, 0, 0, 655363, 0, 0, 655366, 3, 0, 655367, 3, 0, 655368, 3, 0, 655369, 3, 0, 655370, 3, 0, 786418, 0, 0, 786429, 6, 0, 720898, 0, 0, 720899, 0, 0, 720903, 3, 0, 720904, 3, 0, 720905, 3, 0, 720906, 3, 0, 720907, 3, 0, 720908, 3, 0, 851965, 3, 0, 851967, 3, 0, 786434, 0, 0, 786435, 0, 0, 786436, 0, 0, 786443, 3, 0, 786444, 3, 0, 851971, 0, 0, 851972, 0, 0, 851973, 0, 0, 851980, 3, 0, 851981, 3, 0, 983031, 2, 0, 917508, 3, 0, 917509, 3, 0, 917510, 0, 0, 917511, 0, 0, 917517, 3, 0, 917518, 3, 0, 983045, 3, 0, 983046, 3, 0, 983047, 0, 0, 983048, 0, 0, 983054, 3, 0, 1048582, 3, 0, 1048583, 3, 0, 1048584, 0, 0, 1179643, 2, 0, 1179644, 2, 0, 1114119, 0, 0, 1114120, 3, 0, 1245180, 2, 0, 1245181, 2, 0, 1179656, 3, 0, 1441776, 2, 0, 1507325, 2, 0, 1638379, 2, 0, 1703931, 3, 0, 1703932, 3, 0, 1703933, 3, 0, 1769460, 2, 0, 1769461, 2, 0, 1769462, 2, 0, 1769463, 2, 0, 1769465, 3, 0, 1769466, 3, 0, 1769467, 3, 0, 1769468, 2, 0, 1769469, 3, 0, 1769470, 3, 0, 1834995, 2, 0, 1834996, 2, 0, 1834997, 2, 0, 1834999, 2, 0, 1835000, 2, 0, 1835001, 2, 0, 1835002, 2, 0, 1835003, 2, 0, 1835004, 3, 0, 1835005, 3, 0, 1835006, 3, 0, 1900531, 2, 0, 1900532, 2, 0, 1900533, 2, 0, 1900534, 2, 0, 1900535, 2, 0, 1900536, 2, 0, 1900537, 2, 0, 1900538, 2, 0, 1900539, 2, 0, 1900540, 2, 0, 1900541, 2, 0, 1900542, 3, 0, 1966067, 2, 0, 1966068, 2, 0, 1966069, 1, 0, 1966070, 0, 0, 1966071, 0, 0, 1966072, 0, 0, 1966073, 0, 0, 1966074, 0, 0, 1966075, 2, 0, 1966076, 2, 0, 1966077, 2, 0, 1966078, 2, 0, 2031603, 2, 0, 2031604, 2, 0, 2031605, 1, 0, 2031606, 1, 0, 2031607, 1, 0, 2031608, 1, 0, 2031609, 0, 0, 2031610, 2, 0, 2031611, 2, 0, 2031612, 2, 0, 2031613, 0, 0, 2031614, 2, 0, 2097139, 2, 0, 2097140, 2, 0, 2097141, 0, 0, 2097143, 0, 0, 2097145, 1, 0, 2097146, 1, 0, 2097147, 1, 0, 2097148, 2, 0, 2097149, 2, 0, 2097150, 2, 0, 2162675, 2, 0, 2162676, 2, 0, 2162677, 0, 0, 2162678, 0, 0, 2162679, 0, 0, 2162680, 2, 0, 2162681, 1, 0, 2162682, 1, 0, 2162683, 2, 0, 2162684, 2, 0, 2162685, 2, 0, 2228213, 2, 0, 2228214, 2, 0, 2228215, 0, 0, 2228216, 0, 0, 2228217, 0, 0, 2228218, 2, 0, 2228219, 2, 0, 2228220, 2, 0, 2228221, 2, 0 )
@@ -234,7 +283,7 @@ tile_data = PoolIntArray( -327663, 2, 0, -327662, 0, 0, -327657, 0, 0, -262129, 
 [node name="Waterfall" type="TileMap" parent="."]
 modulate = Color( 0.780392, 0.784314, 0.968627, 1 )
 position = Vector2( 7.56299, 1.63028 )
-tile_set = SubResource( 11 )
+tile_set = SubResource( 12 )
 format = 1
 tile_data = PoolIntArray( 1114084, 0, 0, 1114085, 0, 0, 1179620, 0, 0, 1179621, 0, 0, 1245156, 0, 0, 1245157, 0, 0, 1310692, 0, 0, 1310693, 0, 0, 1376228, 0, 0, 1376229, 0, 0 )
 script = ExtResource( 4 )
@@ -253,7 +302,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Objectives/WaterfallObjective"]
-shape = SubResource( 12 )
+shape = SubResource( 13 )
 
 [node name="TutorialObjective" type="Area2D" parent="Objectives"]
 position = Vector2( 404.518, 498.248 )
@@ -262,7 +311,7 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Objectives/TutorialObjective"]
-shape = SubResource( 13 )
+shape = SubResource( 14 )
 
 [node name="Character" parent="." instance=ExtResource( 7 )]
 position = Vector2( 41.7097, 481.66 )
@@ -320,7 +369,7 @@ __meta__ = {
 texture = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall"]
-shape = SubResource( 14 )
+shape = SubResource( 15 )
 
 [node name="InvisbleWall2" type="StaticBody2D" parent="GameArea"]
 position = Vector2( 590.077, 3117.96 )
@@ -334,7 +383,7 @@ __meta__ = {
 texture = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall2"]
-shape = SubResource( 14 )
+shape = SubResource( 15 )
 
 [node name="InvisbleWall3" type="StaticBody2D" parent="GameArea"]
 position = Vector2( -4323.83, 1574.65 )
@@ -348,7 +397,7 @@ __meta__ = {
 texture = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall3"]
-shape = SubResource( 14 )
+shape = SubResource( 15 )
 
 [node name="InvisbleWall4" type="StaticBody2D" parent="GameArea"]
 position = Vector2( 4923.69, 1241.3 )
@@ -362,8 +411,8 @@ __meta__ = {
 texture = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GameArea/InvisbleWall4"]
-shape = SubResource( 14 )
-[connection signal="body_entered" from="Objectives/WaterfallObjective" to="Character" method="_on_WaterfallObjective_body_entered"]
+shape = SubResource( 15 )
 [connection signal="body_entered" from="Objectives/WaterfallObjective" to="Dead Tree" method="_on_Objective_body_entered"]
+[connection signal="body_entered" from="Objectives/WaterfallObjective" to="Character" method="_on_WaterfallObjective_body_entered"]
 [connection signal="body_entered" from="Objectives/TutorialObjective" to="Character" method="_on_TutorialObjective_body_entered"]
 [connection signal="bumped_tree" from="Character" to="HUD/Control" method="_on_Character_bumped_tree"]
