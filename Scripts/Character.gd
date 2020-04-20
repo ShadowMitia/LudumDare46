@@ -30,7 +30,6 @@ func _physics_process(delta):
 		var collision = get_slide_collision(i)
 		if collision.collider.name.substr(0, 9) == "Dead Tree":
 			collision.collider.set_velocity(-collision.normal)
-			emit_signal("bumped_tree", "Bumped tree")
 		# print("Collided with: ", collision.collider.name)
 
 func _on_TutorialObjective_body_entered(body):
