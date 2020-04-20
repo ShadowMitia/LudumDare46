@@ -1,19 +1,17 @@
 extends KinematicBody2D
 
-signal bumped_tree
-
 export(float) var SPEED = 200
 
 var energy = 0 setget add_energy, get_energy
 
-func _ready():
-	pass
 
 func add_energy(new_energy):
 	energy += new_energy
 
 func get_energy():
 	return energy
+	
+
 	
 func _physics_process(delta):
 	

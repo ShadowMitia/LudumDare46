@@ -267,7 +267,6 @@ extents = Vector2( 31.945, 32.6194 )
 [node name="HUD" type="CanvasLayer" parent="."]
 
 [node name="Control" parent="HUD" instance=ExtResource( 1 )]
-visible = false
 
 [node name="Terrain" parent="." instance=ExtResource( 2 )]
 position = Vector2( 7.56299, 1.63028 )
@@ -318,7 +317,7 @@ __meta__ = {
 shape = SubResource( 14 )
 
 [node name="Character" parent="." instance=ExtResource( 7 )]
-position = Vector2( -1853.2, 1092.85 )
+position = Vector2( 38.9566, 114.11 )
 collision_mask = 3
 
 [node name="Puzzle1" type="Node2D" parent="."]
@@ -420,4 +419,3 @@ shape = SubResource( 15 )
 [connection signal="body_entered" from="Objectives/WaterfallObjective" to="Dead Tree" method="_on_Objective_body_entered"]
 [connection signal="body_entered" from="Objectives/WaterfallObjective" to="Character" method="_on_WaterfallObjective_body_entered"]
 [connection signal="body_entered" from="Objectives/TutorialObjective" to="Character" method="_on_TutorialObjective_body_entered"]
-[connection signal="bumped_tree" from="Character" to="HUD/Control" method="_on_Character_bumped_tree"]
