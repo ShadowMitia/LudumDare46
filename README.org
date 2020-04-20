@@ -2,7 +2,8 @@
 
 Name of game : TBD
 
-Made by myself, except where credit has been given.
+Made by myself, except where credit has been given, using Godot Engine.
+
 
 ** Pitch
 
